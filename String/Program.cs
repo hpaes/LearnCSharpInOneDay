@@ -17,6 +17,17 @@ namespace String
             // Substring()
             string newMessage = message.Substring(0, 5);  // substring is used to extract a substring from a longer string
             Console.WriteLine(newMessage);
+
+            // Equals()
+            string firstString = "This is Herbert";
+            string secondString = "Hello";
+
+            bool ans = firstString.Equals("This is Herbert"); // Equals() compares if two strings are identical
+            bool ans2 = secondString.Equals(firstString);
+            Console.WriteLine(ans);
+            Console.WriteLine(ans2);
+
+            // Split()
         }
     }
 }
